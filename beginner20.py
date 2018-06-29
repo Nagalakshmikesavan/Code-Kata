@@ -1,4 +1,5 @@
 n = int(input())
-for i in range(5,n+1):
-	if(i%5 == 0):
-		print(i)
+k = 0
+for i in range(0,n):
+	k += 5
+	print(k)
