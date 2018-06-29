@@ -7,4 +7,7 @@ for i in a:
     if(a.count(i)>1):
         k.add(i)
 l = list(k)
-print(l)
+if(l == []):
+    print("unique")
+else:
+    print(l)
